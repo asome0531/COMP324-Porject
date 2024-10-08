@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Purchase Website</title>
+    <link rel="stylesheet" href="comp324.css">
+</head>
+<body>
+    <header>
+        <a href="#logo" id="logo">
+            <img src="logo3.png" alt="logoimga" class="#"/>
+        </a>
+        
+        <nav id="nav">
+            <ul class="menu">
+                <li>
+                    <a href="#Home"> Home</a>
+                </li>
+                <li>
+                    <a href="#Clothes"> Clothes</a>
+                </li>
+                <li>
+                    <a href="#Accesories"> Accessories</a>
+                </li>
+            </ul>
+        </nav>
+          
+
+        <a href="#contact" class="contact-button">Contact Us</a>
+    
+
+    </header>
+    
+    <main>
+        <div class="grid-container">
+            <div class="home">
+                    
+                    <div class="leftbox">
+                        <h1>Welcome to Lagendar</h1>
+                    </div>
+                    <div class="rightbox">
+                        <img src="home image.jpg" alt="homeimage" class="image-container">
+                    </div>
+            </div>
+            <div class="products">
+                <h2>Clothes</h2>
+                <div id="product1">
+                    <img src="product1.jpg" alt="Product 1">
+                    <h3>Product 1</h3>
+                    <p>$10.00</p>
+                    <button onclick="addToCart('product1')">Add to Cart</button>
+                </div>
+                <div id="product2">
+                    <img src="product2.jpg" alt="Product 2">
+                    <h3>Product 2</h3>
+                    <p>$15.00</p>
+                    <button onclick="addToCart('product2')">Add to Cart</button>
+                </div>
+            </div>
+            <div class="Accessories">
+                <h2>Accessories</h2>
+                <div id="Accs1">
+                    <img src="Accs1.jpg" alt="Accesory 1">
+                    <h3>Accesory 1</h3>
+                    <p>$5.00</p>
+                    <button onclick="addToCart('product1')">Add to Cart</button>
+                </div>
+                <div id="Accs2">
+                    <img src="Accs2.jpg" alt="Accesory 2">
+                    <h3>Accesory 2</h3>
+                    <p>$8.00</p>
+                    <button onclick="addToCart('product2')">Add to Cart</button>
+                </div>
+
+            </div>
+            <div class="cart">
+                <h2>Your Cart</h2>
+                <ul id="cartItems"></ul>
+                <p>Total: $<span id="totalPrice">0.00</span></p>
+            </div>
+        </div>
+       
+    </main>
+
+    <script src="comp324.js"></script>
+</body>
+</html>
