@@ -93,14 +93,23 @@ nav ul li a:hover {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto repeat(4, 1fr);
     gap: 20px; /* Adjust spacing between grid items */
-
+    
 }
 
 .home {
+    padding-top: 1.5rem;
     grid-column: 1 / span 3; /* Span across all three columns */
     font-family: 'Yusei Magic', 'Times New Roman';
     display: flex;
-    
+    justify-content: space-around;
+    color: #555;
+    padding-left: 11.5rem;
+}
+#heading1{
+    padding-top: 5rem;
+}
+#para1{
+    padding-top: 3.5rem;
 }
 .image-container{
     border: none;
@@ -110,7 +119,8 @@ nav ul li a:hover {
     height: 50vh;
 }
 .products {
-    grid-column: 1 / span 2; /* Span across columns 1 and 2 */
+    grid-column: 1 / span 2; 
+    padding-top: 2.5rem;
 }
 
 .Accessories{
@@ -118,48 +128,49 @@ nav ul li a:hover {
 }
 
 .cart {
-    grid-row: 2 / span 2; /* Span from row 2 to row 3 */
-    grid-column: 3; /* Occupy column 3 */
+    grid-row: 2 / span 2; 
+    grid-column: 3; 
 }
 
-/* Individual styles for products */
+
+
 #product1 {
-    border: 1px solid #ccc;
+   
     padding: 10px;
     text-align: center;
-    background-color: #f9f9f9; /* Light background for product 1 */
+   
 }
 
 #product2 {
-    border: 1px solid #ccc;
+    
     padding: 10px;
     text-align: center;
-    background-color: #f0f0f0; /* Light background for product 2 */
+ 
 }
 
 #Accs1{
-    border: 1px solid #ccc;
+   
     padding: 10px;
     text-align: center;
-    background-color: #f9f9f9;
+   
 }
 #Accs2{
-    border: 1px solid #ccc;
+   
     padding: 10px;
     text-align: center;
-    background-color: #f0f0f0;
+  
 }
 
 /* Additional styles to adjust image size */
 #product1 img,
 #product2 img {
-    width: 100%; /* Adjust image to fill the product box */
-    height: auto;
+    width: 20%; /* Adjust image to fill the product box */
+    height: 40%;
 }
 
 .cart{
-    border: 1px solid #ccc;
+ 
     padding: 10px;
     text-align: center;
-    background-color: #766a6a;
+    padding-top: 2.5rem;
 }
