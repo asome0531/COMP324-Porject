@@ -188,10 +188,14 @@ nav ul li a:hover {
 .products img {
     width: 20rem; 
     height: 13rem;
+    border-radius: 8px; 
+    margin-bottom: 1rem; 
 }
-Accessories img {
+.Accessories img {
     width: 20rem; 
     height: 13rem;
+    border-radius: 8px; 
+    margin-bottom: 1rem; 
 }
 
 
@@ -242,3 +246,6 @@ Accessories img {
     font-size: 1.2em; 
     font-weight: bold; 
 }
+
+
+
