@@ -83,10 +83,10 @@ nav ul li a:hover {
 /* Home Section */
 .home {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     margin: 2rem 0;
-    padding: 0 2rem;
+    padding: 0 16rem;
     color: #555;
     
 }
