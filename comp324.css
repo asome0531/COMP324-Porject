@@ -196,20 +196,22 @@ nav ul li a:hover {
     justify-content: center; 
     align-items: center; 
     gap: 2rem; 
-    width: 100%; 
+    background-color: #f3ecec;
     padding: 1rem; 
     box-sizing: border-box; 
 }
 
 
+
+
 .asma, .areeb {
-    flex: 1 1 auto; /* Flex-grow, flex-shrink, and flex-basis */
-    max-width: 300px; /* Limits their maximum width */
-    text-align: center; /* Centers content inside the divs */
+    flex: 0 1 300px;
+    max-width: 300px; 
+    text-align: center; 
     border: 1px solid rgb(171, 163, 163);
     border-radius: 1rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 1.2rem;
+    padding: 2rem;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -229,4 +231,7 @@ nav ul li a:hover {
 .asmapic, .areebpic{
     height: 15rem;
     width: 20rem;
+   border-radius: 50%;
+ 
+   
 }
