@@ -152,6 +152,8 @@ nav ul li a:hover {
     padding: 20px;
     margin: 10px;
     min-width: 300px;
+    max-height: 80.26rem;
+    margin-top: 26px;
 }
 
 #cartItems {
