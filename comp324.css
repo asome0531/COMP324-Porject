@@ -199,6 +199,7 @@ nav ul li a:hover {
     background-color: #f3ecec;
     padding: 1rem; 
     box-sizing: border-box; 
+   
 }
 
 
@@ -229,9 +230,8 @@ nav ul li a:hover {
 }
 
 .asmapic, .areebpic{
-    height: 15rem;
-    width: 20rem;
-   border-radius: 50%;
- 
-   
+    object-fit: cover;
+    height: 4rem;
+    width: 6rem;
+    border-radius: 50%;
 }
