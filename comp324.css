@@ -198,7 +198,7 @@ nav ul li a:hover {
     justify-content: center; 
     align-items: center; 
     gap: 2rem; 
-    background-color: #f3ecec;
+    background-color: #ba489db3;
     padding: 1rem; 
     box-sizing: border-box; 
    
@@ -216,6 +216,7 @@ nav ul li a:hover {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 2rem;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: ghostwhite;
 }
 
 
